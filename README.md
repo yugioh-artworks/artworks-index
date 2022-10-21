@@ -22,9 +22,9 @@ This option is best for web applications, as well as applications that only need
 
 ### 2. If you need access to all artworks
 
-You will want to clone this repository from GitHub. Please keep full clones of the whole thing to a minimum. Keep your local copy of the repository up to date by pulling from the remote repository, which will only download the necessary changes.
+You will want to clone [our repositories](https://github.com/orgs/yugioh-artworks/repositories) from GitHub. Please keep full clones to a minimum, and only clone repositories for sources and locales you will need. Keep your local copies up to date by pulling from the remote repository, which will only download the necessary changes.
 
-If you are distributing an application that uses this approach, please bundle a reasonably-recent clone with it, and base your update logic on that. Do _not_ have each user clone the entire repo on first run.
+If you are distributing an application that uses this approach, please bundle reasonably-recent clones with it, and base your update logic on that. Do _not_ have each user clone entire repositories on first run.
 
 This option is best if you actually need all the artworks, since Git lets you keep your local copy up-to-date efficiently. As an example, you'd want this if you're looking to compile image fingerprints of every card in the game for your card recognition software.
 
@@ -51,6 +51,6 @@ Sometimes, you want finer-grained control, want a particular language's artwork,
 
 _(The `source` value is an internal identifier, and is currently considered to be an implementation detail. Do not rely on its value at this time.)_
 
-All paths listed in `manifest.json` are relative to the repository root. For example, a value of `/foo/bar/baz.png` refers to the artwork at `https://artworks.ygorganization.com/foo/bar/baz.png`.
+All paths listed in `manifest.json` should be resolved relative to the repository base. For example, a value of `/foo/bar/baz.png` refers to the artwork at `https://artworks.ygorganization.com/foo/bar/baz.png`. Note that manifest.json may contain both absolute and relative URLs.
 
 That's all. We also have an [interactive demonstrator](https://artworks.ygorganization.com) for you to peruse. If anything is unclear, or you think this documentation could be improved, please don't hesitate to get in touch.
