@@ -1,5 +1,5 @@
-# artworks.ygorganization.com
-<sup>_(go to: [Getting the data](#getting-the-data), [Using the data](#using-the-data), [Interactive demo](https://artworks.ygorganization.com))_</sup>
+# artworks.ygoresources.com
+<sup>_(go to: [Getting the data](#getting-the-data), [Using the data](#using-the-data), [Interactive demo](https://artworks.ygoresources.com))_</sup>
 
 The Yu-Gi-Oh! community is integral to its own enjoyment of the game, in many ways. Would you be as engaged as you are if it wasn't for deck profiles, tournament commentary, and online deckbuilders? There are so many invaluable player-made tools out there!
 
@@ -8,7 +8,7 @@ However, these tools often need to rely on player-created card renders. This can
 This repository provides a standardized way for player tools to access these KONAMI-created artworks, so you can get accurate information straight from the source. That's really all there is to it.
 
 ## Getting the data
-<sup>_(go to: [Top](#artworksygorganizationcom), [Using the data](#using-the-data), [Interactive demo](https://artworks.ygorganization.com))_</sup>
+<sup>_(go to: [Top](#artworksygoresourcescom), [Using the data](#using-the-data), [Interactive demo](https://artworks.ygoresources.com))_</sup>
 
 However you use the repository, please keep in mind that there are over 10,000 cards in existence. Multiply this by eight supported languages, add Neuron artworks, and you're looking at just over 100,000 images. Even at under 50 kilobytes per image thanks to strong compression, this repository consists of more than four gigabytes of data. Please avoid unnecessarily (and, especially, repeatedly) downloading the entire thing. We don't want to get kicked off Github because you murdered their servers -- they're generous enough to host this stuff for free.
 
@@ -16,7 +16,7 @@ Below are the appropriate ways to access the data. Depending on your use case, o
 
 ### 1. If you need individual card artworks on demand
 
-Access them via [`https://artworks.ygorganization.com/`](https://artworks.ygorganization.com/). This is a hosted copy of this repository powered by [GitHub pages](https://pages.github.com/), and brought to you via [Cloudflare](https://www.cloudflare.com/). Every file in this repository is available at this URL. For example, if the usage section refers to `manifest.json`, that file can be found at [`https://artworks.ygorganization.com/manifest.json`](https://artworks.ygorganization.com/manifest.json).
+Access them via [`https://artworks.ygoresources.com/`](https://artworks.ygoresources.com/). This is a hosted copy of this repository powered by [GitHub pages](https://pages.github.com/), and brought to you via [Cloudflare](https://www.cloudflare.com/). Every file in this repository is available at this URL. For example, if the usage section refers to `manifest.json`, that file can be found at [`https://artworks.ygoresources.com/manifest.json`](https://artworks.ygoresources.com/manifest.json).
 
 This option is best for web applications, as well as applications that only need a small handful of artworks in the average use case. An example would be online deck viewers, or deck profile image generators.
 
@@ -29,13 +29,13 @@ If you are distributing an application that uses this approach, please bundle re
 This option is best if you actually need all the artworks, since Git lets you keep your local copy up-to-date efficiently. As an example, you'd want this if you're looking to compile image fingerprints of every card in the game for your card recognition software.
 
 ## Using the data
-<sup>_(go to: [Top](#artworksygorganizationcom), [Getting the data](#getting-the-data), [Interactive demo](https://artworks.ygorganization.com))_</sup>
+<sup>_(go to: [Top](#artworksygoresourcescom), [Getting the data](#getting-the-data), [Interactive demo](https://artworks.ygoresources.com))_</sup>
 
-Once you've figured out a good way to access the data, you'll want to look at [`manifest.json`](https://artworks.ygorganization.com/manifest.json) in the repository root. This file serves as an index of the entire repository's contents.
+Once you've figured out a good way to access the data, you'll want to look at [`manifest.json`](https://artworks.ygoresources.com/manifest.json) in the repository root. This file serves as an index of the entire repository's contents.
 
 _(Do **not** rely on any details of our file paths to try and guess them on your own. Repository structure and file paths may change without notice. File paths may not remain uniform across the entire repository, either. Please use `manifest.json`.)_
 
-The manifest's `.cards` entry is an object, which is indexed by cards' database ID. This is the same ID used by [the YGOrganization Database](https://db.ygorganization.com/) and KONAMI's own [Card Database](https://www.db.yugioh-card.com/). As an example, _Dark Magician_'s database ID is `4041`.
+The manifest's `.cards` entry is an object, which is indexed by cards' database ID. This is the same ID used by [the YGOResources Database](https://db.ygoresources.com/) and KONAMI's own [Card Database](https://www.db.yugioh-card.com/). As an example, _Dark Magician_'s database ID is `4041`.
 
 Each entry in `.cards` is another object, indexed by the artwork IDs available for the respective card. Artwork IDs are assigned by KONAMI. All cards currently use numeric values, but this is an implementation detail and should not be relied upon. To give an example, data for Dark Magician's first artwork can currently be accessed as `manifestData.cards['4041']['1']`.
 
@@ -51,6 +51,6 @@ Sometimes, you want finer-grained control, want a particular language's artwork,
 
 _(The `source` value is an internal identifier, and is currently considered to be an implementation detail. Do not rely on its value at this time.)_
 
-All paths listed in `manifest.json` should be resolved relative to the repository base. For example, a value of `/foo/bar/baz.png` refers to the artwork at `https://artworks.ygorganization.com/foo/bar/baz.png`. Note that manifest.json may contain both absolute and relative URLs.
+All paths listed in `manifest.json` should be resolved relative to the repository base. For example, a value of `/foo/bar/baz.png` refers to the artwork at `https://artworks.ygoresources.com/foo/bar/baz.png`. Note that manifest.json may contain both absolute and relative URLs.
 
-That's all. We also have an [interactive demonstrator](https://artworks.ygorganization.com) for you to peruse. If anything is unclear, or you think this documentation could be improved, please don't hesitate to get in touch.
+That's all. We also have an [interactive demonstrator](https://artworks.ygoresources.com) for you to peruse. If anything is unclear, or you think this documentation could be improved, please don't hesitate to get in touch.
