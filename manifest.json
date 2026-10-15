@@ -112721,6 +112721,9 @@
       { "path": "//artworks-jp-n.ygoresources.com/1/30/36_2.png", "source": "neuron_high" },
       { "path": "//artworks-jp-db.ygoresources.com/1/30/36_2.png", "source": "database" }
      ],
+     "ko": [
+      { "path": "//artworks-ko-db.ygoresources.com/1/30/36_2.png", "source": "database" }
+     ],
      "pt": [
       { "path": "//artworks-pt-db.ygoresources.com/1/30/36_2.png", "source": "database" }
      ]
@@ -136728,6 +136731,9 @@
       { "path": "//artworks-jp-n.ygoresources.com/1/36/70_2.png", "source": "neuron_high" },
       { "path": "//artworks-jp-db.ygoresources.com/1/36/70_2.png", "source": "database" }
      ],
+     "ko": [
+      { "path": "//artworks-ko-db.ygoresources.com/1/36/70_2.png", "source": "database" }
+     ],
      "pt": [
       { "path": "//artworks-pt-db.ygoresources.com/1/36/70_2.png", "source": "database" }
      ]
@@ -137097,6 +137103,9 @@
      "ja": [
       { "path": "//artworks-jp-n.ygoresources.com/1/36/75_2.png", "source": "neuron_high" },
       { "path": "//artworks-jp-db.ygoresources.com/1/36/75_2.png", "source": "database" }
+     ],
+     "ko": [
+      { "path": "//artworks-ko-db.ygoresources.com/1/36/75_2.png", "source": "database" }
      ],
      "pt": [
       { "path": "//artworks-pt-db.ygoresources.com/1/36/75_2.png", "source": "database" }
@@ -244149,6 +244158,9 @@
      "ja": [
       { "path": "//artworks-jp-n.ygoresources.com/1/70/34_2.png", "source": "neuron_high" },
       { "path": "//artworks-jp-db.ygoresources.com/1/70/34_2.png", "source": "database" }
+     ],
+     "ko": [
+      { "path": "//artworks-ko-db.ygoresources.com/1/70/34_2.png", "source": "database" }
      ],
      "pt": [
       { "path": "//artworks-pt-db.ygoresources.com/1/70/34_2.png", "source": "database" }
@@ -423161,6 +423173,9 @@
      "ja": [
       { "path": "//artworks-jp-n.ygoresources.com/0/50/5_2.png", "source": "neuron_high" }
      ],
+     "ko": [
+      { "path": "//artworks-ko-db.ygoresources.com/0/50/5_2.png", "source": "database" }
+     ],
      "pt": [
       { "path": "//artworks-pt-db.ygoresources.com/0/50/5_2.png", "source": "database" }
      ]
@@ -475259,6 +475274,7 @@
    },
    "2": {
     "bestArt": "//artworks-en-n.ygoresources.com/0/65/58_2.png",
+    "bestOCG": "//artworks-ko-db.ygoresources.com/0/65/58_2.png",
     "bestTCG": "//artworks-en-n.ygoresources.com/0/65/58_2.png",
     "idx": {
      "de": [
@@ -475276,6 +475292,9 @@
      ],
      "it": [
       { "path": "//artworks-it-db.ygoresources.com/0/65/58_2.png", "source": "database" }
+     ],
+     "ko": [
+      { "path": "//artworks-ko-db.ygoresources.com/0/65/58_2.png", "source": "database" }
      ],
      "pt": [
       { "path": "//artworks-pt-db.ygoresources.com/0/65/58_2.png", "source": "database" }
