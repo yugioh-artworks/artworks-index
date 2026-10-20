@@ -388159,10 +388159,11 @@
   },
   "24035": {
    "1": {
-    "bestArt": "//artworks-jp-db.ygoresources.com/2/40/35_1.png",
-    "bestOCG": "//artworks-jp-db.ygoresources.com/2/40/35_1.png",
+    "bestArt": "//artworks-jp-n.ygoresources.com/2/40/35_1.png",
+    "bestOCG": "//artworks-jp-n.ygoresources.com/2/40/35_1.png",
     "idx": {
      "ja": [
+      { "path": "//artworks-jp-n.ygoresources.com/2/40/35_1.png", "source": "neuron_high" },
       { "path": "//artworks-jp-db.ygoresources.com/2/40/35_1.png", "source": "database" }
      ]
     }
@@ -588071,7 +588072,7 @@
  },
  "neuron_version": {
   "jRush_high": "1.1.294",
-  "ocg_high": "1.1.614",
+  "ocg_high": "1.1.615",
   "tcg_high": "1.1.611"
  }
 }
