@@ -386274,6 +386274,9 @@
      "ja": [
       { "path": "//artworks-jp-n.ygoresources.com/2/34/97_1.png", "source": "neuron_high" },
       { "path": "//artworks-jp-db.ygoresources.com/2/34/97_1.png", "source": "database" }
+     ],
+     "ko": [
+      { "path": "//artworks-ko-db.ygoresources.com/2/34/97_1.png", "source": "database" }
      ]
     }
    },
@@ -386284,6 +386287,9 @@
      "ja": [
       { "path": "//artworks-jp-n.ygoresources.com/2/34/97_2.png", "source": "neuron_high" },
       { "path": "//artworks-jp-db.ygoresources.com/2/34/97_2.png", "source": "database" }
+     ],
+     "ko": [
+      { "path": "//artworks-ko-db.ygoresources.com/2/34/97_2.png", "source": "database" }
      ]
     }
    }
@@ -386296,6 +386302,9 @@
      "ja": [
       { "path": "//artworks-jp-n.ygoresources.com/2/34/98_1.png", "source": "neuron_high" },
       { "path": "//artworks-jp-db.ygoresources.com/2/34/98_1.png", "source": "database" }
+     ],
+     "ko": [
+      { "path": "//artworks-ko-db.ygoresources.com/2/34/98_1.png", "source": "database" }
      ]
     }
    },
@@ -386306,6 +386315,9 @@
      "ja": [
       { "path": "//artworks-jp-n.ygoresources.com/2/34/98_2.png", "source": "neuron_high" },
       { "path": "//artworks-jp-db.ygoresources.com/2/34/98_2.png", "source": "database" }
+     ],
+     "ko": [
+      { "path": "//artworks-ko-db.ygoresources.com/2/34/98_2.png", "source": "database" }
      ]
     }
    }
@@ -386318,6 +386330,9 @@
      "ja": [
       { "path": "//artworks-jp-n.ygoresources.com/2/34/99_1.png", "source": "neuron_high" },
       { "path": "//artworks-jp-db.ygoresources.com/2/34/99_1.png", "source": "database" }
+     ],
+     "ko": [
+      { "path": "//artworks-ko-db.ygoresources.com/2/34/99_1.png", "source": "database" }
      ]
     }
    },
@@ -386328,6 +386343,9 @@
      "ja": [
       { "path": "//artworks-jp-n.ygoresources.com/2/34/99_2.png", "source": "neuron_high" },
       { "path": "//artworks-jp-db.ygoresources.com/2/34/99_2.png", "source": "database" }
+     ],
+     "ko": [
+      { "path": "//artworks-ko-db.ygoresources.com/2/34/99_2.png", "source": "database" }
      ]
     }
    }
@@ -386340,6 +386358,9 @@
      "ja": [
       { "path": "//artworks-jp-n.ygoresources.com/2/35/0_1.png", "source": "neuron_high" },
       { "path": "//artworks-jp-db.ygoresources.com/2/35/0_1.png", "source": "database" }
+     ],
+     "ko": [
+      { "path": "//artworks-ko-db.ygoresources.com/2/35/0_1.png", "source": "database" }
      ]
     }
    },
@@ -386350,6 +386371,9 @@
      "ja": [
       { "path": "//artworks-jp-n.ygoresources.com/2/35/0_2.png", "source": "neuron_high" },
       { "path": "//artworks-jp-db.ygoresources.com/2/35/0_2.png", "source": "database" }
+     ],
+     "ko": [
+      { "path": "//artworks-ko-db.ygoresources.com/2/35/0_2.png", "source": "database" }
      ]
     }
    }
@@ -386362,6 +386386,9 @@
      "ja": [
       { "path": "//artworks-jp-n.ygoresources.com/2/35/1_1.png", "source": "neuron_high" },
       { "path": "//artworks-jp-db.ygoresources.com/2/35/1_1.png", "source": "database" }
+     ],
+     "ko": [
+      { "path": "//artworks-ko-db.ygoresources.com/2/35/1_1.png", "source": "database" }
      ]
     }
    },
@@ -386372,6 +386399,9 @@
      "ja": [
       { "path": "//artworks-jp-n.ygoresources.com/2/35/1_2.png", "source": "neuron_high" },
       { "path": "//artworks-jp-db.ygoresources.com/2/35/1_2.png", "source": "database" }
+     ],
+     "ko": [
+      { "path": "//artworks-ko-db.ygoresources.com/2/35/1_2.png", "source": "database" }
      ]
     }
    }
@@ -386384,6 +386414,9 @@
      "ja": [
       { "path": "//artworks-jp-n.ygoresources.com/2/35/2_1.png", "source": "neuron_high" },
       { "path": "//artworks-jp-db.ygoresources.com/2/35/2_1.png", "source": "database" }
+     ],
+     "ko": [
+      { "path": "//artworks-ko-db.ygoresources.com/2/35/2_1.png", "source": "database" }
      ]
     }
    },
@@ -386394,6 +386427,9 @@
      "ja": [
       { "path": "//artworks-jp-n.ygoresources.com/2/35/2_2.png", "source": "neuron_high" },
       { "path": "//artworks-jp-db.ygoresources.com/2/35/2_2.png", "source": "database" }
+     ],
+     "ko": [
+      { "path": "//artworks-ko-db.ygoresources.com/2/35/2_2.png", "source": "database" }
      ]
     }
    }
@@ -386406,6 +386442,9 @@
      "ja": [
       { "path": "//artworks-jp-n.ygoresources.com/2/35/3_1.png", "source": "neuron_high" },
       { "path": "//artworks-jp-db.ygoresources.com/2/35/3_1.png", "source": "database" }
+     ],
+     "ko": [
+      { "path": "//artworks-ko-db.ygoresources.com/2/35/3_1.png", "source": "database" }
      ]
     }
    },
@@ -386416,6 +386455,9 @@
      "ja": [
       { "path": "//artworks-jp-n.ygoresources.com/2/35/3_2.png", "source": "neuron_high" },
       { "path": "//artworks-jp-db.ygoresources.com/2/35/3_2.png", "source": "database" }
+     ],
+     "ko": [
+      { "path": "//artworks-ko-db.ygoresources.com/2/35/3_2.png", "source": "database" }
      ]
     }
    }
@@ -386428,6 +386470,9 @@
      "ja": [
       { "path": "//artworks-jp-n.ygoresources.com/2/35/4_1.png", "source": "neuron_high" },
       { "path": "//artworks-jp-db.ygoresources.com/2/35/4_1.png", "source": "database" }
+     ],
+     "ko": [
+      { "path": "//artworks-ko-db.ygoresources.com/2/35/4_1.png", "source": "database" }
      ]
     }
    },
@@ -386438,6 +386483,9 @@
      "ja": [
       { "path": "//artworks-jp-n.ygoresources.com/2/35/4_2.png", "source": "neuron_high" },
       { "path": "//artworks-jp-db.ygoresources.com/2/35/4_2.png", "source": "database" }
+     ],
+     "ko": [
+      { "path": "//artworks-ko-db.ygoresources.com/2/35/4_2.png", "source": "database" }
      ]
     }
    }
