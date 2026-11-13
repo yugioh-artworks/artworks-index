@@ -342441,6 +342441,15 @@
      ]
     }
    },
+   "102": {
+    "bestArt": "//artworks-jp-rn.ygoresources.com/2/12/88_102.png",
+    "bestOCG": "//artworks-jp-rn.ygoresources.com/2/12/88_102.png",
+    "idx": {
+     "ja": [
+      { "path": "//artworks-jp-rn.ygoresources.com/2/12/88_102.png", "source": "neuron_rush" }
+     ]
+    }
+   },
    "2": {
     "bestArt": "//artworks-jp-rn.ygoresources.com/2/12/88_2.png",
     "bestOCG": "//artworks-jp-rn.ygoresources.com/2/12/88_2.png",
@@ -592543,7 +592552,7 @@
   }
  },
  "neuron_version": {
-  "jRush_high": "1.1.300",
+  "jRush_high": "1.1.302",
   "ocg_high": "1.1.625",
   "tcg_high": "1.1.623"
  }
