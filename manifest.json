@@ -391579,6 +391579,17 @@
     }
    }
   },
+  "24071": {
+   "1": {
+    "bestArt": "//artworks-jp-db.ygoresources.com/2/40/71_1.png",
+    "bestOCG": "//artworks-jp-db.ygoresources.com/2/40/71_1.png",
+    "idx": {
+     "ja": [
+      { "path": "//artworks-jp-db.ygoresources.com/2/40/71_1.png", "source": "database" }
+     ]
+    }
+   }
+  },
   "24089": {
    "1": {
     "bestArt": "//artworks-jp-rn.ygoresources.com/2/40/89_1.png",
